@@ -8,6 +8,7 @@ public class Main {
         vendedor.setNome("Cesar Constanzo");
         vendedor.setDocumento("123456467");
         vendedor.setValorSalario(1000d);
+        vendedor.calculaBonificacao(5d);
         vendedor.setEndereco(endereco);
         System.out.println(vendedor);
 
@@ -20,6 +21,8 @@ public class Main {
         gerente.setEndereco(endereco);
         gerente.setHorasTrabalhadas(20);
         gerente.setValorHora(100d);
+        gerente.calculaRemuneracao();
+        gerente.calculaBonificacao(3d);
         System.out.println(gerente);
     }
 }
