@@ -1,3 +1,7 @@
+import domain.Endereco;
+import domain.Gerente;
+import domain.OperadorDeCaixa;
+import domain.Vendedor;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,3 +1,7 @@
+package domain;
+
+import domain.Endereco;
+
 public abstract class FuncionarioPJ {
     private String nome;
     private String documento;
@@ -56,7 +60,7 @@ public abstract class FuncionarioPJ {
 
     @Override
     public String toString() {
-        return "FuncionarioPJ{" +
+        return "domain.FuncionarioPJ{" +
                 "nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +
                 ", endereco=" + endereco +

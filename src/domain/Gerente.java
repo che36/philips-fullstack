@@ -1,3 +1,8 @@
+package domain;
+
+import domain.CalculaBonificacao;
+import domain.FuncionarioPJ;
+
 public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
     private Double valorBonificacao;
 
@@ -8,7 +13,7 @@ public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
 
     @Override
     public String toString() {
-        return "Gerente{" +
+        return "domain.Gerente{" +
                 "valorBonidficacao= " + valorBonificacao +
                 "nome=' " + super.getNome() + '\'' +
                 ", documento=' " + super.getEndereco().getBairro() + '\'' +

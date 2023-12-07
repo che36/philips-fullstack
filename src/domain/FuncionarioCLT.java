@@ -1,3 +1,7 @@
+package domain;
+
+import domain.Endereco;
+
 public abstract class FuncionarioCLT {
     protected String nome;
     protected String documento;
@@ -48,7 +52,7 @@ public abstract class FuncionarioCLT {
 
     @Override
     public String toString() {
-        return "FuncionarioCLT{" +
+        return "domain.FuncionarioCLT{" +
                 "nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +
                 ", valorSalario=" + valorSalario +

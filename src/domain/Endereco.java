@@ -1,3 +1,5 @@
+package domain;
+
 public class Endereco {
     private String rua;
     private String complemento;
@@ -38,7 +40,7 @@ public class Endereco {
 
     @Override
     public String toString() {
-        return "Endereco{" +
+        return "domain.Endereco{" +
                 "rua='" + rua + '\'' +
                 ", complemento='" + complemento + '\'' +
                 ", bairro='" + bairro + '\'' +

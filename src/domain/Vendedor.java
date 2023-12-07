@@ -1,3 +1,8 @@
+package domain;
+
+import domain.CalculaBonificacao;
+import domain.FuncionarioCLT;
+
 public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
     private Double valorDaBonificacao;
 
@@ -8,7 +13,7 @@ public class Vendedor extends FuncionarioCLT implements CalculaBonificacao {
 
     @Override
     public String toString() {
-        return "Vendedor{" +
+        return "domain.Vendedor{" +
                 "valorDaBonificacao=" + valorDaBonificacao +
                 ", nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +

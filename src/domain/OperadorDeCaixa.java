@@ -1,3 +1,8 @@
+package domain;
+
+import domain.Endereco;
+import domain.FuncionarioCLT;
+
 public class OperadorDeCaixa extends FuncionarioCLT {
 
     public OperadorDeCaixa(String nome, String documento, Double valorSalario, Endereco endereco) {
@@ -6,7 +11,7 @@ public class OperadorDeCaixa extends FuncionarioCLT {
 
     @Override
     public String toString() {
-        return "OperadorDeCaixa{" +
+        return "domain.OperadorDeCaixa{" +
                 "nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +
                 ", valorSalario=" + valorSalario +
