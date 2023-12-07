@@ -54,4 +54,15 @@ public abstract class FuncionarioPJ {
         return valorRemuneracao;
     }
 
+    @Override
+    public String toString() {
+        return "FuncionarioPJ{" +
+                "nome='" + nome + '\'' +
+                ", documento='" + documento + '\'' +
+                ", endereco=" + endereco +
+                ", horasTrabalhadas=" + horasTrabalhadas +
+                ", valorHora=" + valorHora +
+                ", valorRemuneracao=" + valorRemuneracao +
+                '}';
+    }
 }
