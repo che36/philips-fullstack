@@ -10,5 +10,8 @@ public class Main {
         vendedor.setValorSalario(1000d);
         vendedor.setEndereco(endereco);
         System.out.println(vendedor);
+
+        OperadorDeCaixa operadorCaixa = new OperadorDeCaixa("Operador de Caixa", "123456465", 100d, endereco);
+        System.out.println(operadorCaixa);
     }
 }
