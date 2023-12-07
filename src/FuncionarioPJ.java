@@ -5,4 +5,8 @@ public abstract class FuncionarioPJ {
     private Integer horasTrabalhadas;
     private Double valorHora;
     private Double valorRemuneracao;
+
+    public void calculaRemuneracao() {
+        this.valorRemuneracao = this.horasTrabalhadas * this.valorHora;
+    }
 }
