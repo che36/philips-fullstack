@@ -13,5 +13,13 @@ public class Main {
 
         OperadorDeCaixa operadorCaixa = new OperadorDeCaixa("Operador de Caixa", "123456465", 100d, endereco);
         System.out.println(operadorCaixa);
+
+        Gerente gerente = new Gerente();
+        gerente.setNome("César ");
+        gerente.setDocumento("456465465465");
+        gerente.setEndereco(endereco);
+        gerente.setHorasTrabalhadas(20);
+        gerente.setValorHora(100d);
+        System.out.println(gerente);
     }
 }
